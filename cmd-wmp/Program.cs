@@ -1,12 +1,20 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.IO;
+using WMPLib;
 
 namespace cmd_wmp {
 	class Program {
 		static void Main(string[] args) {
+			WindowsMediaPlayer w = new WindowsMediaPlayer();
+			
+		}
+
+		private static void act(string c, string v) {
+			switch(c) {
+				case "play":
+
+					break;
+			}
 		}
 	}
 }
